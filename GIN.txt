@@ -1,0 +1,10 @@
+How to server static files using Gin?
+	-> refer https://stackoverflow.com/questions/57354389/how-to-render-static-files-within-gin-router
+		* router.Static("/assets", "./assets")
+		* router.StaticFS("/more_static", http.Dir("my_file_system"))
+		* router.StaticFile("/favicon.ico", "./resources/favicon.ico")
+		
+Parsing PostForms using Gin,
+	https://stackoverflow.com/questions/39984575/gin-gonic-array-of-values-from-postform
+	
+
